@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Silhouette Brasil</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/new-age.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation - Nome da empresa no topo --> 
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Silhouette Brasil</a>
+    </div>
+  </nav>
+
+  <!-- corpo do site -->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-lg-7 my-auto">
+          <!-- texto e imagem da caixa -->
+          <div class="header-content mx-auto">
+            <h1 class="texto">Forma para bombom</h1>
+            <h2>
+                Arquivos prontos para o corte. Use sua imaginação, faça e personalize como desejar!
+            </h2>
+            <div class="aux1">
+                <img src="img/c1.jpg" class="img">
+            </div>
+            <div class="aux2">
+                <img src="img/c2.jpg" class="img">
+            </div>
+            <div  class="aux3">
+                <img src="img/c3.jpg" class="img">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 my-auto">
+          <!-- Função -->
+          <script>
+            function funcao()
+            {
+              var soma = document.forms["form"]["soma"].value;
+              if(soma != 8)
+              {
+                alert("Valor da soma incorreto!");
+                return false;
+              }
+              else
+              {
+                alert("Valor da soma correto!");
+                return true;
+              }
+
+
+            }
+          </script>
+    
+          <!-- form -->
+          <div class="device-container" >
+              <div class="device-mockup device">
+                <center>
+                    <h5 class="txt">Baixe gratuitamente aqui!</h5>                    
+                </center>
+                
+                <form name="form" onsubmit="return funcao()">
+                  <h6 class="form">Nome:</h6>
+                  <input type="text" name="nome" class="input" required>
+
+                  <h6 class="form">E-mail:</h6>
+                  <input type="text" name="email" class="input" required>
+
+                  <h6 class="form">Mês do aniversário:</h6>
+                  <select class="input" required>
+                    <option value="J">Janeiro</option>
+                    <option value="F">Fevereiro</option>
+                    <option value="MR">Março</option>
+                    <option value="AB">Abril</option>
+                    <option value="MI">Maio</option>
+                    <option value="JN">Junho</option>
+                    <option value="JL">Julho</option>
+                    <option value="AG">Agosto</option>
+                    <option value="S">Setembro</option>
+                    <option value="O">Outubro</option>
+                    <option value="N">Novembro</option>
+                    <option value="D">Dezembro</option>
+                  </select>
+
+                  <h6 class="form">Quais equipamentos você possui?</h6>
+                  <input type="checkbox" class="input"> Silhouette Cameo 3 <br>
+                  <input type="checkbox" class="input"> Silhouette Cameo 2 <br>
+                  <input type="checkbox" class="input"> Silhouette Mint <br>
+                  <input type="checkbox" class="input"> Silhouette Stamping <br>
+                  <input type="checkbox" class="input"> Nenhum <br>
+
+                  <h6 class="form">2+6=?</h6>
+                  <input type="text" name="soma" class="input" required>
+                  <br>
+                  <input type="submit" class="botao" value="Baixar">
+                </form>
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- sessão onde fica as redes sociais -->
+  <section class="contact bg-primary" id="contact">
+    <div class="container">
+      <h1>Compartilhe nas redes sociais</h1>
+      <ul class="list-inline list-social">
+        <li class="list-inline-item social-twitter">
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="list-inline-item social-facebook">
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li class="list-inline-item social-google-plus">
+          <a href="#">
+            <i class="fab fa-google-plus-g"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- rodapé copyright-->
+  <footer>
+    <div class="container">
+      <p>Copyright &copy; 2018 Silhouette Brasil</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/new-age.min.js"></script>
+
+</body>
+
+</html>
